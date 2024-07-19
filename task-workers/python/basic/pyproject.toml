@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "basic-task-worker"
+version = "0.1.0"
+description = "A minimal Task Worker implementation which you can copy, edit, and use."
+authors = ["LittleHorse Engineering <engineering@littlehorse.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+littlehorse-client = "0.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
